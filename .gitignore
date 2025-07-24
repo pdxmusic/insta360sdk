@@ -1,0 +1,38 @@
+# Python
+*.pyc
+__pycache__/
+
+# C++
+*.o
+*.out
+*.exe
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+build/
+
+# CameraSDK
+CameraSDK-20250418_145834-2.0.2-Linux/bin/
+CameraSDK-20250418_145834-2.0.2-Linux/lib/
+CameraSDK-20250418_145834-2.0.2-Linux/example/main
+
+# MediaSDK
+libMediaSDK-dev-3.0.5.1-20250618_195946-amd64/example/main
+libMediaSDK-dev-3.0.5.1-20250618_195946-amd64/example/stitcher_demo
+libMediaSDK-dev-3.0.5.1-20250618_195946-amd64/example/output_frames/
+
+# Notebook
+*.ipynb_checkpoints
+
+# Others
+*.deb

@@ -54,7 +54,7 @@ cd libMediaSDK-dev-3.0.5.1-20250618_195946-amd64/example
 mkdir -p output_frames
 
 LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main \
-    -inputs /mnt/data/datasets/video/fisheye/VID_20250610_092308_00_099.insv \
+    -inputs /path/to/video.insv \
     -image_sequence_dir output_frames \
     -image_type jpg \
     -output_size 11520x5760 \
@@ -66,7 +66,7 @@ LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main 
 #### Dynamic Stitch (Buon compromesso)
 ```bash
 LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main \
-    -inputs /mnt/data/datasets/video/fisheye/VID_20250610_092308_00_099.insv \
+    -inputs /path/to/video.insv \
     -image_sequence_dir output_frames \
     -image_type jpg \
     -output_size 11520x5760 \
@@ -78,7 +78,7 @@ LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main 
 #### AI Stitch v1 (Funziona con camere pre-X4)
 ```bash
 LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main \
-    -inputs /mnt/data/datasets/video/fisheye/VID_20250610_092308_00_099.insv \
+    -inputs /path/to/video.insv \
     -image_sequence_dir output_frames \
     -image_type jpg \
     -output_size 11520x5760 \
@@ -91,7 +91,7 @@ LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main 
 #### ⚠️ Optical Flow (Qualità alta ma può distorcere)
 ```bash
 LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main \
-    -inputs /mnt/data/datasets/video/fisheye/VID_20250610_092308_00_099.insv \
+    -inputs /path/to/video.insv \
     -image_sequence_dir output_frames \
     -image_type jpg \
     -output_size 11520x5760 \
@@ -106,7 +106,7 @@ LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main 
 ```bash
 # ⚠️ NON FUNZIONA - ConvolutionDepthwise non supportato da MNN CUDA backend
 LD_LIBRARY_PATH=../../CameraSDK-20250418_145834-2.0.2-Linux/lib:/usr/lib ./main \
-    -inputs /mnt/data/datasets/video/fisheye/VID_20250723_162432_00_136.insv \
+    -inputs /path/to/video.insv \
     -image_sequence_dir output_frames \
     -image_type jpg \
     -output_size 11520x5760 \

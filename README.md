@@ -44,8 +44,6 @@ g++ -std=c++11 \
 
 ## 5. Algoritmi di Stitching Supportati
 
-## 5. Algoritmi di Stitching Supportati
-
 ### ✅ Algoritmi Funzionanti
 
 #### Template Stitch (Raccomandato per geometria stabile)
